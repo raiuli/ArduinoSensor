@@ -9,9 +9,10 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 
-const char *entity_id="Room50";
-const char *sensorid="iot_sensor_86dcb3dfad9b46aa855e40a8317e602a";
-const char *password="8193251f34c5495ea504fe005f61f920";
+const char *entity_id="";
+const char *sensorid="";
+const char *password="";
+
 char body[400];
 String uri="https://130.240.134.129:8443/se.ltu.ssr.webapp/rest/fiwareproxy/ngsi10/updateContext/";
 
